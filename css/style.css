@@ -1,10 +1,11 @@
 body {
-    background-image: url(../img/fundo.png);
+    background-image:  url(../img/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
 }
 
-.sobre {
-    background-color: beige;
+#principal {
     width: 900px;
+ 
 }
 
 h2 {
@@ -13,24 +14,36 @@ h2 {
     padding: 10px;
 }
 
-.rodape {
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-}
+
 .menu {
-    margin: 20px auto;
+    background: #c5c5b2;
+    padding: 18px;
 }
 
-.menu a{
+a{
    text-decoration: none;
-   padding: 15px;
-   color: rgb(29, 12, 124);
+   padding: 5px;
+   color: #4b566a;
    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+.sobre {
+    background:#e8e8d9;
+    width: 880px;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 p {
    margin-left: 10px;
    margin-right: 5px;
+}
+
+.centralizar {
+    text-align: center;
 }
 
