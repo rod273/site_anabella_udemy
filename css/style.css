@@ -8,10 +8,9 @@ body {
  
 }
 
-h2 {
-    color: rgb(148, 148, 84);
-    font-weight: bold;
-    padding: 10px;
+h1 {
+    color: #828271;
+    font-size: 1.2em;
 }
 
 
@@ -35,15 +34,25 @@ a:hover {
     background:#e8e8d9;
     width: 880px;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 10px ;
 }
+
+.sobre1 {
+    background:#e8e8d9;
+    width: 862px;
+    padding: 10px;
+    margin-top: 10px ;
+    
 
 p {
    margin-left: 10px;
    margin-right: 5px;
 }
 
-.centralizar {
+#rodape {
     text-align: center;
 }
 
+ .fotos img{
+   border: 10px solid #c3c3ae;
+}
