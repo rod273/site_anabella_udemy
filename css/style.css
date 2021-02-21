@@ -1,3 +1,36 @@
 body {
     background-image: url(../img/fundo.png);
 }
+
+.sobre {
+    background-color: beige;
+    width: 900px;
+}
+
+h2 {
+    color: rgb(148, 148, 84);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.rodape {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu {
+    margin: 20px auto;
+}
+
+.menu a{
+   text-decoration: none;
+   padding: 15px;
+   color: rgb(29, 12, 124);
+   font-weight: bold;
+}
+
+p {
+   margin-left: 10px;
+   margin-right: 5px;
+}
+
